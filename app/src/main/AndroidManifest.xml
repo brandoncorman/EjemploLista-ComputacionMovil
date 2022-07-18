@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EjemploLista">
         <activity
+            android:name=".NuevoContactoActivity"
+            android:exported="false" />
+        <activity
             android:name=".DetalleContactoActivity"
             android:exported="false" />
         <activity
